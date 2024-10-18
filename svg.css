@@ -1,0 +1,28 @@
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-left: 10px;
+    /* space between the icons */
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+svg {
+    width: 30px;
+    height: 30px;
+    fill: white;
+    transition: fill 0.3s ease;
+    padding: 0px 5px;
+    margin-top: 5px;
+}
+
+button:hover svg {
+    fill: #1d95b9;
+    /* Lighter green on hover */
+}
